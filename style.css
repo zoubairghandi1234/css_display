@@ -10,19 +10,28 @@ body{
 .containerbody{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .menu{
     background-color: aqua;
     padding: 15px;
-    width: 240px;
-    border: 5px solid black;
-    
+    width: 500px;
+    border: 5px solid black;    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+    background-color: chocolate;
 }
 .info{
     height: 200px;
     width: 300px;
-    background-color: blueviolet;
+    background-color: rgb(208, 177, 237);
+    display: flex;
 }
 img{
     height: 50px;
