@@ -38,8 +38,8 @@ img{
     width: 50px;
 }
 .footer{
-    background-color: bisque;
-    height: 200px;
+    background-color: rgb(65, 65, 65);
+    height: 100px;
     position: fixed;
     bottom: 0;
 }
@@ -49,6 +49,6 @@ img{
 }
 .para{
     padding: 5px;
-    background-color: aquamarine;
     margin: 5px;
+    color: aliceblue;
 }
