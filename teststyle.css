@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+.grid{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 6rem 5rem auto 5rem ;
+    grid-template-columns: 20% auto 20% ;
+}
+
+@media (max-width:480px) {
+    .grid{
+        grid-template-rows: 6rem 6rem 6rem auto 6rem 6rem;
+        grid-template-columns: 1fr;
+    }
+    aside, main {
+        grid-column: 1/4;
+    }
+    
+}
+
+nav, header,footer{
+    height: 100%;
+    background: blueviolet;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+nav{
+    background: seagreen;
+}
+aside , main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    background: salmon;
+}
+aside{
+    background: aqua;
+}
